@@ -1,0 +1,1 @@
+export const FETCH_MESS_SUCCESS = "FETCH_MESS_SUCCESS";
