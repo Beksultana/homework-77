@@ -38,7 +38,7 @@ class MessageForm extends Component {
                     <Label sm={2} for="title">Author</Label>
                     <Col sm={10}>
                         <Input
-                            type="author" required
+                            type="author"
                             name="author" id="author"
                             placeholder="Enter author"
                             value={this.state.author}
@@ -50,7 +50,7 @@ class MessageForm extends Component {
                     <Label sm={2} for="price">Message</Label>
                     <Col sm={10}>
                         <Input
-                            type="text" required min="0"
+                            type="text"  min="0"
                             name="message" id="message"
                             placeholder="Enter message"
                             value={this.state.message}
